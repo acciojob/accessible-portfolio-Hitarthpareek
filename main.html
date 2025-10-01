@@ -1,28 +1,39 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <title>Accessible Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-	<title>Title hu mai</title>
-	<heading> <h1 role="heading">Heading hu mai </h1></heading>
-	<nav role="navigation"> 
-	<ul role="list"> 
-		<li><a>Nav1</a> </li>  
-		<li><a>Nav2</a> </li> 
-		<li><a>Nav3</a> </li> 
-	</ul>
-	</nav>
+  <!-- Main Heading -->
+  <h1 role="heading">Heading hu mai</h1>
 
-	<img role="image" src="#notnow" alt="It's an image">
-	
+  <!-- Navigation -->
+  <nav role="navigation">
+    <ul role="list">
+      <li role="listitem"><a href="#">Nav1</a></li>
+      <li role="listitem"><a href="#">Nav2</a></li>
+      <li role="listitem"><a href="#">Nav3</a></li>
+    </ul>
+  </nav>
 
+  <!-- Image -->
+  <img role="img" src="#notnow" alt="It's an image">
+
+  <!-- Description -->
+  <p>
+    This is a brief description about me and my portfolio. 
+    I focus on creating accessible and user-friendly projects.
+  </p>
+
+  <!-- Skills / List -->
+  <ul role="list">
+    <li role="listitem">HTML & CSS</li>
+    <li role="listitem">JavaScript</li>
+    <li role="listitem">Accessibility Best Practices</li>
+  </ul>
+
+  <script type="text/javascript" src="./script.js"></script>
 </body>
-
 </html>
